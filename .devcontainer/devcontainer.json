@@ -1,16 +1,12 @@
 {
-	// "image": "mcr.microsoft.com/devcontainers/universal:2",
 	"image":"mcr.microsoft.com/devcontainers/go",
-	// "features": {
-	// 	"ghcr.io/devcontainers/features/azure-cli:1": {
-    //         "version": "latest"
-    //     }
-	// },
+	"features": {
+		"azure-cli": "latest"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"GitHub.copilot",
-				"ms-vscode.vscode-node-azure-pack"
+				"GitHub.copilot"
 			]
 		}
 	},
